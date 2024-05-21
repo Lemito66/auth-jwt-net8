@@ -53,6 +53,8 @@ insert into Products values('Iphone 15 Pro Max', 6, 1200)
 select * from Products inner join Brands on Products.brandId = brands.brandId
 where Brands.brandId = 6
 
+/* secret key jwt */
+select NEWID()
 
 select * from Users
 select * from Products
